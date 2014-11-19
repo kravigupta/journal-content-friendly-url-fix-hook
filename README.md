@@ -13,10 +13,10 @@ This code replaces the special characters from existing title and updates articl
 
 Steps to deploy:
 ================
-This hook deploys just like other hot deployable plugins of Liferay.
-1. If you have the source code, build it to a war file.
-2. Put the package file in deploy folder of Liferay Portal.
-3. Make sure you create web contents after deployment is done, this hook can not fix existing web contents.
+This hook deploys just like other hot deployable plugins of Liferay.<br/>
+1. If you have the source code, build it to a war file.<br/>
+2. Put the package file in deploy folder of Liferay Portal.<br/>
+3. Make sure you create web contents after deployment is done, this hook can not fix existing web contents.<br/>
 
 Link to blog posts:
 ===================
