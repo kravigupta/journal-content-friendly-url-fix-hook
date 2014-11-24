@@ -6,19 +6,19 @@
 	<artifactId>journal-content-friendly-url-fix-hook</artifactId>
 	<packaging>war</packaging>
 	<name>journal-content-friendly-url-fix-hook Hook</name>
-	<version>1.0</version>
+	<version>1.0.0.0</version>
 	<build>
 		<plugins>
 			<plugin>
 				<groupId>com.liferay.maven.plugins</groupId>
 				<artifactId>liferay-maven-plugin</artifactId>
-				<version>${liferay.version}</version>
+				<version>6.1.20</version>
 				<configuration>
 					<autoDeployDir>${liferay.auto.deploy.dir}</autoDeployDir>
 					<appServerDeployDir>${liferay.app.server.deploy.dir}</appServerDeployDir>
 					<appServerLibGlobalDir>${liferay.app.server.lib.global.dir}</appServerLibGlobalDir>
 					<appServerPortalDir>${liferay.app.server.portal.dir}</appServerPortalDir>
-					<liferayVersion>${liferay.version}</liferayVersion>
+					<liferayVersion>6.1.20</liferayVersion>
 					<pluginType>hook</pluginType>
 				</configuration>
 			</plugin>
